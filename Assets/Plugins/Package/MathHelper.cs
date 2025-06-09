@@ -1,7 +1,16 @@
+/***********************************************
+ * MathHelper.cs
+ * Provides a variety of common math functions for Unity3D projects
+ ***********************************************/
+
 using UnityEngine;
 
 namespace gambit.mathhelper
 {
+
+    /// <summary>
+    /// Provides additional math functionality common in Unity3D applications
+    /// </summary>
     public static class MathHelper
     {
         /// <summary>
