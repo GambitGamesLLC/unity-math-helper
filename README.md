@@ -63,13 +63,6 @@ INSTALLATION INSTRUCTIONS
   [Unity UPM Git subfolder guide](https://docs.unity3d.com/Manual/upm-git.html#subfolder)
 
 ------------------------------
-RECOMMENDED PACKAGES
-------------------------------
-
-**Gambit Singleton** [[Repo]](https://github.com/GambitGamesLLC/unity-singleton)
-Useful when you need global access to mono behaviours
-
-------------------------------
 SUPPORT
 ------------------------------
 Created and maintained by **Gambit Games LLC**.
