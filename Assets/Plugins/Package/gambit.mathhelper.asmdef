@@ -1,0 +1,9 @@
+{
+  "name": "gambit.mathhelper",
+  "defineConstraints": [
+    "GAMBIT_MATHHELPER"
+  ],
+  "autoReferenced": true,
+  "allowUnsafeCode": false,
+  "overrideReferences": false
+}
