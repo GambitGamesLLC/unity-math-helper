@@ -1,7 +1,7 @@
 {
   "name": "com.gambit.mathhelper",
   "version": "1.0.0",
-  "displayName": "Gambit Math Helper",
+  "displayName": "Unity Math Helper",
   "description": "Common math utilities for Unity3D development.",
   "unity": "2020.3",
   "author": {
