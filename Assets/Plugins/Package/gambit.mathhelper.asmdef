@@ -1,9 +1,14 @@
 {
-  "name": "gambit.mathhelper",
-  "defineConstraints": [
-    "GAMBIT_MATHHELPER"
-  ],
-  "autoReferenced": true,
-  "allowUnsafeCode": false,
-  "overrideReferences": false
+    "name": "gambit.mathhelper",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
