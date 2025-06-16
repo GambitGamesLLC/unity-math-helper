@@ -26,23 +26,23 @@ namespace gambit.mathhelper
         /// <param name="toMax">The new range's maximum.</param>
         /// <returns>The remapped value in the target range.</returns>
         //--------------------------------------------------------------------------------------------//
-        public static float Map(float value, float fromMin, float fromMax, float toMin, float toMax)
+        public static float Map(float value, float fromMin, float fromMax, float toMin, float toMax, bool showLogs = false )
         //--------------------------------------------------------------------------------------------//
         {
             if(fromMin == fromMax)
             {
-                Debug.LogError( "MathHelper.cs Map() fromMin & fromMax are equal, returning the 'toMin' value" );
+                if( showLogs ) Debug.LogError( "MathHelper.cs Map() fromMin & fromMax are equal, returning the 'toMin' value" );
                 return toMin;
             }
             if(toMin == toMax)
             {
-                Debug.LogError( "MathHelper.cs Map() toMin & toMax are equal, returning the 'toMin' value" );
+                if( showLogs ) Debug.LogError( "MathHelper.cs Map() toMin & toMax are equal, returning the 'toMin' value" );
                 return toMin;
             }
             if(fromMin == toMin && fromMax == toMax)
             {
-                Debug.LogError( "MathHelper.cs Map() passed in 'fromMin' is the same as 'toMin', and 'fromMax' is the same as 'toMax'. Unable to continue" );
-                return toMin;
+                if( showLogs ) Debug.LogWarning( "MathHelper.cs Map() passed in 'fromMin' is the same as 'toMin', and 'fromMax' is the same as 'toMax'. Returning original value" );
+                return value;
             }
 
             //Perform the remapping
